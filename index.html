@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Matte Black LifeStyle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/styles.css" rel="stylesheet">
+     
+    <style>
+      body {
+        padding-top: 0;
+      }
+
+      a {color:black;}
+      a:hover {color: grey;}
+
+      .nav-pills > li > a.active {
+        background-color:black!important;
+      }
+    </style>
+
+  <script>
+
+    function modalChanger(z) {
+      var x = z;
+        switch(x) {  
+          case 1:
+            // alert("modal changer 1");
+            var titleOfIphone = document.getElementById("iPhone").innerHTML;
+            var priceOfiPhone = document.getElementById("iPhonePrice").innerHTML;
+
+            //Top photo in modal 
+            document.getElementById("topimg").src = "https://source.unsplash.com/CDj4lFslTPY/800x400"
+
+            //Modal grid photo 1
+            document.getElementById("fb1a").href = "https://source.unsplash.com/1giBTF3G4EE/1500x1000" 
+            document.getElementById("fb1b").src = "https://source.unsplash.com/1giBTF3G4EE/240x160" 
+
+            //Modal grid photo 2
+            document.getElementById("fb2a").href = "https://source.unsplash.com/d0Sl3AH8Tlg/1500x1000"
+            document.getElementById("fb2b").src = "https://source.unsplash.com/d0Sl3AH8Tlg/240x160"
+
+            //Modal grid photo 2
+            document.getElementById("fb3a").href = "https://source.unsplash.com/J7xrBW_oYJc/1500x1000"
+            document.getElementById("fb3b").src = "https://source.unsplash.com/J7xrBW_oYJc/240x160"
+
+            
+            //text inside modal 
+            document.getElementsByClassName("modTitleClass")[0].innerHTML= titleOfIphone;
+            document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + titleOfIphone;
+            document.getElementById("modPrice").innerHTML = priceOfiPhone;
+            document.getElementById("modDescription").innerHTML = "An awesome iPhone"          
+
+            break;
+
+          case 2:
+            var titleHoodie = document.getElementById("c2Title").innerHTML;
+            var priceHoodie = document.getElementById("c2Price").innerHTML;
+
+            //Top photo in modal 
+            document.getElementById("topimg").src = "https://source.unsplash.com/NrF4Dw4BG5Q/800x400"
+
+            //Modal grid photo 1
+            document.getElementById("fb1a").href = "https://source.unsplash.com/tsPaWCdGRIw/1500x1000" 
+            document.getElementById("fb1b").src = "https://source.unsplash.com/tsPaWCdGRIw/240x160" 
+
+            //Modal grid photo 2
+            document.getElementById("fb2a").href = "https://source.unsplash.com/5fZAR9dRQG4/1500x1000"
+            document.getElementById("fb2b").src = "https://source.unsplash.com/5fZAR9dRQG4/240x160"
+
+            //Modal grid photo 2
+            document.getElementById("fb3a").href = "https://source.unsplash.com/cYuYcW5YbVQ/1500x1000"
+            document.getElementById("fb3b").src = "https://source.unsplash.com/cYuYcW5YbVQ/240x160"
+
+            
+            //text inside modal 
+            document.getElementsByClassName("modTitleClass")[0].innerHTML= titleHoodie;
+            document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + titleHoodie;
+            document.getElementById("modPrice").innerHTML = priceHoodie;
+            document.getElementById("modDescription").innerHTML = "A great hoodie"          
+
+            break;
+          case 3:
+            // coffee press 
+            var titleCoffeePress = document.getElementById("c3Title").innerHTML;
+            var priceCoffeePress = document.getElementById("c3Price").innerHTML;
+
+            //Top photo in modal 
+            document.getElementById("topimg").src = "https://source.unsplash.com/A1wzMskhU_c/800x400"
+
+            //Modal grid photo 1
+            document.getElementById("fb1a").href = "https://source.unsplash.com/u5GAr5XyW1Y/1500x1000" 
+            document.getElementById("fb1b").src = "https://source.unsplash.com/u5GAr5XyW1Y/240x160" 
+
+            //Modal grid photo 2
+            document.getElementById("fb2a").href = "https://source.unsplash.com/39DAIRcF6yA/1500x1000"
+            document.getElementById("fb2b").src = "https://source.unsplash.com/39DAIRcF6yA/240x160"
+
+            //Modal grid photo 2
+            document.getElementById("fb3a").href = "https://source.unsplash.com/kozxiMaZU24/1500x1000"
+            document.getElementById("fb3b").src = "https://source.unsplash.com/kozxiMaZU24/240x160"
+
+            
+            //text inside modal 
+            document.getElementsByClassName("modTitleClass")[0].innerHTML= titleCoffeePress;
+            document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + titleCoffeePress;
+            document.getElementById("modPrice").innerHTML = priceCoffeePress;
+            document.getElementById("modDescription").innerHTML = "A great Coffe Press"  
+
+            break;
+          case 4: 
+            // Coffee Mug
+            var title = document.getElementById("c4Title").innerHTML;
+            var price = document.getElementById("c4Price").innerHTML;
+
+            //Top photo in modal 
+            document.getElementById("topimg").src = "https://source.unsplash.com/47C_M0Lg2Y0/800x400"
+
+            //Modal grid photo 1
+            document.getElementById("fb1a").href = "https://source.unsplash.com/VxtWBOQjGdI/1500x1000" 
+            document.getElementById("fb1b").src = "https://source.unsplash.com/VxtWBOQjGdI/240x160" 
+
+            //Modal grid photo 2
+            document.getElementById("fb2a").href = "https://source.unsplash.com/xpo5BggQo3E/1500x1000"
+            document.getElementById("fb2b").src = "https://source.unsplash.com/xpo5BggQo3E/240x160"
+
+            //Modal grid photo 2
+            document.getElementById("fb3a").href = "https://source.unsplash.com/cmQ13SkCZmc/1500x1000"
+            document.getElementById("fb3b").src = "https://source.unsplash.com/cmQ13SkCZmc/240x160"
+
+            
+            //text inside modal 
+            document.getElementsByClassName("modTitleClass")[0].innerHTML= title;
+            document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + title;
+            document.getElementById("modPrice").innerHTML = price;
+            document.getElementById("modDescription").innerHTML = "A great Coffe Mug"  
+
+            break;
+          
+          case 5: 
+            // Shoe
+            var title = document.getElementById("c5Title").innerHTML;
+            var price = document.getElementById("c5Price").innerHTML;
+
+            //Top photo in modal 
+            document.getElementById("topimg").src = "https://source.unsplash.com/LxVxPA1LOVM/800x400"
+
+            //Modal grid photo 1
+            document.getElementById("fb1a").href = "https://source.unsplash.com/u4unYsXQHnE/1500x1000" 
+            document.getElementById("fb1b").src = "https://source.unsplash.com/u4unYsXQHnE/240x160" 
+
+            //Modal grid photo 2
+            document.getElementById("fb2a").href = "https://source.unsplash.com/g1vk_Bef2Xk/1500x1000"
+            document.getElementById("fb2b").src = "https://source.unsplash.com/g1vk_Bef2Xk/240x160"
+
+            //Modal grid photo 2
+            document.getElementById("fb3a").href = "https://source.unsplash.com/PqbL_mxmaUE/1500x1000"
+            document.getElementById("fb3b").src = "https://source.unsplash.com/PqbL_mxmaUE/240x160"
+
+            
+            //text inside modal 
+            document.getElementsByClassName("modTitleClass")[0].innerHTML= title;
+            document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + title;
+            document.getElementById("modPrice").innerHTML = price;
+            document.getElementById("modDescription").innerHTML = "A great running shoe" 
+            
+            break;
+
+          case 6:
+            // Backpack
+            var title = document.getElementById("c6Title").innerHTML;
+            var price = document.getElementById("c6Price").innerHTML;
+
+            //Top photo in modal 
+            document.getElementById("topimg").src = "https://source.unsplash.com/GQQ6BRJxysU/800x400"
+
+            //Modal grid photo 1
+            document.getElementById("fb1a").href = "https://source.unsplash.com/9qxe4bsokO0/1500x1000" 
+            document.getElementById("fb1b").src = "https://source.unsplash.com/9qxe4bsokO0/240x160" 
+
+            //Modal grid photo 2
+            document.getElementById("fb2a").href = "https://source.unsplash.com/3qMfzgNcCm4/1500x1000"
+            document.getElementById("fb2b").src = "https://source.unsplash.com/3qMfzgNcCm4/240x160"
+
+            //Modal grid photo 2
+            document.getElementById("fb3a").href = "https://source.unsplash.com/8TSqJoI-NVs/1500x1000"
+            document.getElementById("fb3b").src = "https://source.unsplash.com/8TSqJoI-NVs/240x160"
+
+            
+            //text inside modal 
+            document.getElementsByClassName("modTitleClass")[0].innerHTML= title;
+            document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + title;
+            document.getElementById("modPrice").innerHTML = price;
+            document.getElementById("modDescription").innerHTML = "A great backpack"  
+
+            break;
+
+        
+          default:
+          alert("Modal changer undefined");
+        }
+    }
+
+    function cartalert() {
+      alert("Item Succesfully added to cart");
+    }
+
+    function getAlert() {
+      // alert("Form button clicked");
+      var emailAdd = $("#email").val();
+      var subject = $("#subject").val();
+      var message = $("#message").val();
+      var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+      var errors = false;
+
+      if(emailAdd == "") {      
+        $("#testalert2").removeClass('d-none') 
+        errors = true;
+    
+      } else {
+          if(emailAdd.match(mailformat)) {
+          $("#testalert2").addClass('d-none')          
+          errors = false;
+        } else{
+          $("#testalert2").removeClass('d-none')         
+          errors = true;
+        }      
+      }
+
+      if(subject == "") {
+        $("#testalert3").removeClass('d-none') 
+        errors = true;
+      } else {
+        $("#testalert3").addClass('d-none')
+        errors = false;
+
+      }
+
+      if(message == "") {
+        $("#testalert4").removeClass('d-none') 
+        errors = true;
+      } else {
+        $("#testalert4").addClass('d-none')
+        errors = false;
+
+      }
+
+      if (errors == false){
+          //send data to server
+          var dataForServer = 'email=' + emailAdd + '&subject=' + subject + '&message=' + message ;
+
+          // alert("data sent");
+
+          // $("form1").serialize();
+          console.log(dataForServer);
+
+          // send this data to the server via technology called AJAX (asynchronous javascript)
+          $.ajax({
+              type: "POST",
+              url: "bootstrapserver.php", //this is calling action
+              
+              data: dataForServer,
+              success: function(msg) {
+                  if (msg != "") alert(msg);
+              }
+          });
+      } 
+    }
+
+  </script>
+
+
+  </head>
+
+  <body class="bg-dark">
+
+    <main role="main" class="container">
+
+       <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/1296868.svg" width="50" height="50" alt="">
+        Matte Black Lifestyle
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="nav nav-pills mb-3 bentab" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about" aria-selected="false">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+        
+      <!-- Nav pills -->
+
+      <div class="tab-content"  id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <!-- Slide (carousel) Start -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="https://source.unsplash.com/6cdIdu8KkLg/800x400" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://source.unsplash.com/HONJP8DyiSM/800x400" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://source.unsplash.com/HY3l4IeOc3E/800x400" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div><!-- Slide (carousel) end -->
+
+            <!-- Card with Modal Start --> 
+            <!-- Iphone card -->
+            <div class="card-columns pt-4">
+              <div class="card" >
+                <img class="card-img-top" src="https://source.unsplash.com/CDj4lFslTPY/800x400" alt="Card image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 class="card-title" id="iPhone">iPhone</h4>
+                  <p class="card-text" id="iPhonePrice">Price: $999.99</p>
+                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal" onclick="modalChanger(1)" >
+                   View                  
+                  </button>
+                </div>
+              </div>
+
+              <!-- Hoodie Card -->
+              <div class="card" >
+                <img class="card-img-top" src="https://source.unsplash.com/NrF4Dw4BG5Q/800x400" alt="Card image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 id="c2Title" class="card-title">Hoodie</h4>
+                  <p id="c2Price" class="card-text">Price: $69.99</p>
+                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal" onclick="modalChanger(2)" >
+                    View                  
+                   </button>
+                </div>
+              </div>
+
+              <!-- Coffee Press  -->
+              <div class="card" >
+                <img class="card-img-top" src="https://source.unsplash.com/A1wzMskhU_c/800x400" alt="Card image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 id="c3Title" class="card-title">Coffee Press</h4>
+                  <p id="c3Price" class="card-text">Price: $29.99</p>
+                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal" onclick="modalChanger(3)" >
+                    View                  
+                   </button>
+                </div>
+              </div>
+
+              <!-- Coffee Mug -->
+              <div class="card">
+                <img class="card-img-top" src="https://source.unsplash.com/47C_M0Lg2Y0/800x400" alt="Card image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 id="c4Title" class="card-title">Coffee Mug</h4>
+                  <p id="c4Price" class="card-text">Price: $15.99</p>
+                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal" onclick="modalChanger(4)" >
+                    View                  
+                   </button>
+                </div>
+              </div>
+
+              <!-- Shoe   -->
+              <div class="card" >
+                <img class="card-img-top" src="https://source.unsplash.com/LxVxPA1LOVM/800x400" alt="Card image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 id="c5Title" class="card-title">Running Shoe</h4>
+                  <p id="c5Price" class="card-text">Price: $199.99</p>
+                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal" onclick="modalChanger(5)" >
+                    View                  
+                   </button>
+                </div>
+              </div>
+
+              <!--Backpack -->
+              <div class="card" >
+                <img class="card-img-top" src="https://source.unsplash.com/GQQ6BRJxysU/800x400" alt="Card image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 id="c6Title" class="card-title">Backpack</h4>
+                  <p id="c6Price" class="card-text">Price: $89.99</p>
+                  <button type="button" class="btn btn-dark btn-block" data-toggle="modal" data-target="#myModal" onclick="modalChanger(6)" >
+                    View                  
+                   </button>
+                </div>
+              </div>
+            </div><!-- Card with Modal End --> 
+        </div>
+
+        <!-- About Page -->
+        <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+            <h1>Life Life in color matte black</h1>
+        </div>
+
+        <!-- Contact Page -->
+     
+        <div class="tab-pane fade text-white" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          
+          <!-- form 1 -->
+          <form action="javascript:getAlert();" >
+            <div class="form-group">
+              <label for="">Email address</label>
+              <input type="text" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+              <span id="testalert1" class="d-none alert alert-danger form-inline" >please enter an email address</span>
+              <span id="testalert2" class="d-none alert alert-danger form-inline" >please use proper e-mail format</span>
+              
+            </div>
+
+            <div class="form-group">
+              <label for="">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Add a Subject ">
+              <span id="testalert3" class="d-none alert alert-danger form-inline" >add a subject to the subject line</span>
+            </div>
+
+                    <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control " name="message" id="message" rows="3"></textarea>
+              <span id="testalert4" class="d-none alert alert-danger form-inline" >add a subject to the subject line</span>
+            </div>      
+            
+            <button type="submit" class="btn btn-outline-light">Submit</button>
+          </form>
+
+         
+
+        </div>
+
+
+      </div>
+
+      <!-- <div class="container">
+        <img class="d-block w-100" src="https://source.unsplash.com/6cdIdu8KkLg/800x400" alt="First slide">
+      </div> -->
+
+
+     <!-- The Modal -->
+     <div class="modal" id="myModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">          
+            <h1 class="modTitleClass"></h1>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body" id="modbod" >
+            <div id="topPicture">
+              <img id="topimg" src="" class="img-fluid" alt="Responsive image">            
+            </div>
+
+          <div><h2>More Photos</h2></div>
+        
+            <div id="modTinyPic" class="text-center">
+              <a id="fb1a" href="" data-fancybox >
+                <img id="fb1b" src="" />
+              </a>
+            
+              <a id="fb2a" href="" data-fancybox >
+                <img id="fb2b" src="" />
+              </a>
+            
+              <a id="fb3a" href="" data-fancybox>
+                <img id="fb3b" src="" />
+              </a>             
+            </div>            
+            <div> <h3 class="modTitleClass"></h3></div>
+            <div > <h3 id="modPrice"> </h3></div>
+            <div><h4 id="modDescription"></h4></div>
+            <button type="button" class="btn btn-dark btn-lg" onclick="cartalert();">Add to Cart</button>
+        
+         
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+       
+    </main><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/jquery-slim.min.js"><\/script>')</script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="dist/jquery.fancybox.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  </body>
+</html>
