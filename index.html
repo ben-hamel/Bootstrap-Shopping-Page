@@ -111,7 +111,8 @@
             document.getElementsByClassName("modTitleClass")[0].innerHTML= titleCoffeePress;
             document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + titleCoffeePress;
             document.getElementById("modPrice").innerHTML = priceCoffeePress;
-            document.getElementById("modDescription").innerHTML = "A great Coffe Press" 
+            document.getElementById("modDescription").innerHTML = "A great Coffe Press"  
+
             break;
           case 4: 
             // Coffee Mug
@@ -139,6 +140,7 @@
             document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + title;
             document.getElementById("modPrice").innerHTML = price;
             document.getElementById("modDescription").innerHTML = "A great Coffe Mug"  
+
             break;
           
           case 5: 
@@ -166,8 +168,10 @@
             document.getElementsByClassName("modTitleClass")[0].innerHTML= title;
             document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + title;
             document.getElementById("modPrice").innerHTML = price;
-            document.getElementById("modDescription").innerHTML = "A great running shoe"             
+            document.getElementById("modDescription").innerHTML = "A great running shoe" 
+            
             break;
+
           case 6:
             // Backpack
             var title = document.getElementById("c6Title").innerHTML;
@@ -194,8 +198,10 @@
             document.getElementsByClassName("modTitleClass")[1].innerHTML= "Item: " + title;
             document.getElementById("modPrice").innerHTML = price;
             document.getElementById("modDescription").innerHTML = "A great backpack"  
+
             break;
-                    
+
+        
           default:
           alert("Modal changer undefined");
         }
@@ -211,41 +217,35 @@
       var subject = $("#subject").val();
       var message = $("#message").val();
       var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-      var errors = false;
+      var errors = 0;
 
       if(emailAdd == "") {      
         $("#testalert2").removeClass('d-none') 
-        errors = true;
-    
+        errors = 1;    
       } else {
           if(emailAdd.match(mailformat)) {
           $("#testalert2").addClass('d-none')          
-          errors = false;
         } else{
           $("#testalert2").removeClass('d-none')         
-          errors = true;
+          errors = 2;
         }      
       }
 
       if(subject == "") {
         $("#testalert3").removeClass('d-none') 
-        errors = true;
+        errors = 3;
       } else {
         $("#testalert3").addClass('d-none')
-        errors = false;
-
       }
 
       if(message == "") {
         $("#testalert4").removeClass('d-none') 
-        errors = true;
+        errors = 4;
       } else {
         $("#testalert4").addClass('d-none')
-        errors = false;
-
       }
 
-      if (errors == false){
+      if (errors == 0){
           //send data to server
           var dataForServer = 'email=' + emailAdd + '&subject=' + subject + '&message=' + message ;
 
@@ -457,7 +457,12 @@
 
 
       </div>
-      
+
+      <!-- <div class="container">
+        <img class="d-block w-100" src="https://source.unsplash.com/6cdIdu8KkLg/800x400" alt="First slide">
+      </div> -->
+
+
      <!-- The Modal -->
      <div class="modal" id="myModal">
       <div class="modal-dialog modal-lg">
