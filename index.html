@@ -23,6 +23,18 @@
       .nav-pills > li > a.active {
         background-color:black!important;
       }
+
+      #floatContainer {
+        position: relative;
+      }
+
+      #floatImg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+      }
+
     </style>
 
   <script>
@@ -274,7 +286,7 @@
 
     <main role="main" class="container">
 
-       <!-- Nav Bar -->
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">
         <img src="img/1296868.svg" width="50" height="50" alt="">
@@ -299,7 +311,6 @@
     </nav>
         
       <!-- Nav pills -->
-
       <div class="tab-content"  id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <!-- Slide (carousel) Start -->
@@ -417,10 +428,12 @@
                 <h1 class="">We are a website dedicated to people who love a darker aesthetic, for those who love old noir movies and lean towards the monochrome.  </h1>
               </div>
             </div >   
-            <div class="row p-5">
-              <img  src="https://source.unsplash.com/rYA-sOaacro/700x500" class="img-fluid float-left" alt="">
-            </div>            
-        </div>
+            <div id="floatContainer" class="row p-5">
+              <img  src="https://source.unsplash.com/rYA-sOaacro/700x500" class="img-fluid float-left" id="floatImg" alt="">
+              <img  src="https://source.unsplash.com/RCAhiGJsUUE/700x500" class="img-fluid "  alt="">              
+            </div>  
+        </div>    
+         
 
         <!-- Contact Page -->
      
@@ -450,18 +463,8 @@
             
             <button type="submit" class="btn btn-outline-light">Submit</button>
           </form>
-
-         
-
         </div>
-
-
       </div>
-
-      <!-- <div class="container">
-        <img class="d-block w-100" src="https://source.unsplash.com/6cdIdu8KkLg/800x400" alt="First slide">
-      </div> -->
-
 
      <!-- The Modal -->
      <div class="modal" id="myModal">
